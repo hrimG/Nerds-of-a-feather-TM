@@ -111,10 +111,13 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Acknowledgements
 * [Google](www.google.com)
 
-## FAQ
+## Team Members
 
-- **How do I do *specifically* so and so?**
-    - Create an Issue to this repo , we will respond to the query
+1. Hrim Gandhi
+2. Suyash More
+3. Shreyansh Chordia
+4. Parth Wani
+5. Prathamesh Gurav
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
