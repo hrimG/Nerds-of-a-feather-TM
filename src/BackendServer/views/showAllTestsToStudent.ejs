@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>All Tests:</h1>
+    <% for(let i=0 ; i < tests.length ; i++){ %>
+    <form action="/student/takeTest" method="POST">
+      <%= tests[i].test_details.id %>
+      <br />
+      <input
+        type="text"
+        style="display: none"
+        name="testID"
+        value="<%= tests[i].test_details.id %>"
+        id=""
+      />
+      <input
+        type="text"
+        style="display: none"
+        name="email"
+        value="<%= email %>"
+        id=""
+      />
+      <input class="btn btn-primary" type="submit" value="Take Test" name="" id="" />
+    </form>
+    <% } %>
+  </body>
+</html>
