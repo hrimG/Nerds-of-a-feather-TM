@@ -55,7 +55,7 @@ Follow the Below Instructions for setting the project up on your local Machine.
 
 1. Clone the repo
 ```sh
-git clone https://github.com/SuyashMore/AI-Proctored-Examination-System.git
+git clone https://github.com/hrimG/Nerds-of-a-feather-TM.git
 ```
 2. Install Dependencies
 ```sh
