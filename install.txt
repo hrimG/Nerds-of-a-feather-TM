@@ -1,0 +1,38 @@
+Follow the Below Instructions for setting the project up on your local Machine.
+
+Installation
+
+1. Clone the repo
+
+git clone https://github.com/SuyashMore/AI-Proctored-Examination-System.git
+
+2. Install Dependencies
+
+cd src/BackendServer/
+npm install
+pip install oci borneo
+
+
+Running the Application
+
+The Application Consists of Multiple Servers. Refer the Architecture for more details.Run the Service Servers in Multiple Terminals
+
+Test Service
+
+sudo python3 src/TestServer/server.py
+
+
+Result Service
+
+sudo python3 src/ResultServer/server.py
+
+
+Authorization Service
+
+sudo python3 src/AuthServer/server.py
+
+
+Main Backend Server
+
+cd /src/BackendServer
+npm run dev
